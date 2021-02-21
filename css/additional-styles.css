@@ -8,6 +8,9 @@ body {
   height: 2.8em;
 }
 
+
+
+
 #top-navigation-bar ul {
   padding-top: .8em;
 
@@ -29,7 +32,7 @@ main {
 
 hr {
   border: 8px solid #115E89;
-  
+
 }
 
 #opening {
@@ -44,6 +47,9 @@ hr {
   font-size: 2.8em;
 }
 
+
+
+
 #opening h4 {
   font-style: italic;
   font-weight: 400;
@@ -52,6 +58,31 @@ hr {
   font-size: 1.2em;
   line-height: 1.6em;
   margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #opening h1 {
+    padding-top: 0em;
+  }
+
+  #opening h4 {
+    max-width: 100%;
+  }
+
+#top-navigation-bar {
+  height: auto;
+}
+
+  #top-navigation-bar li {
+    display: block;
+    width: 100%;
+    margin-right: 4em;
+    height: 2em;
+    border: 0;
+    color: white;
+    font-size: .9em;
+  }
+
 }
 
 

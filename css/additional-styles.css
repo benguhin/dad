@@ -1,0 +1,69 @@
+body {
+  font-family: merriweather;
+}
+
+#top-navigation-bar {
+  background: #115E89;
+  width: 100%;
+  height: 2.8em;
+}
+
+#top-navigation-bar ul {
+  padding-top: .8em;
+
+}
+
+#top-navigation-bar li {
+  display: inline;
+  width: 25%;
+  margin-right: 4em;
+  height: 2em;
+  border: 0;
+  color: white;
+  font-size: .9em;
+}
+
+main {
+  background: ;
+}
+
+hr {
+  border: 8px solid #115E89;
+  
+}
+
+#opening {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#opening h1 {
+  padding-top: 3.6em;
+  padding-left: .4em;
+  margin-bottom: .2em;
+  font-size: 2.8em;
+}
+
+#opening h4 {
+  font-style: italic;
+  font-weight: 400;
+  padding-left: .8em;
+  max-width: 75%;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-top: 0;
+}
+
+
+
+main h2 {
+  padding-top: 1em;
+  font-size: 2em;
+  margin-bottom: .3em;
+}
+
+main p {
+  margin-bottom: .1em;
+  line-height: 1.5em;
+
+}

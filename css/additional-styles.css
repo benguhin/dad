@@ -71,16 +71,19 @@ hr {
 
 #top-navigation-bar {
   height: auto;
+  padding: .3em 0 .3em 0;
 }
 
   #top-navigation-bar li {
     display: block;
-    width: 100%;
+    width: 90%;
     margin-right: 4em;
+    margin-bottom: 1em;
     height: 2em;
-    border: 0;
     color: white;
     font-size: .9em;
+    border-bottom: #aaa solid 1px;
+
   }
 
 }
